@@ -1,0 +1,10 @@
+<input id="city" placeholder="City"/>
+<button onclick="fetchWeather()">Get Weather</button>
+<pre id="result"></pre>
+<script>
+    async function fetchWeather(){
+        const city=document.getElementById('city').value;
+        const res=await fetch('/api/weather?city='+encodeURIComponent(city));
+        document.getElementById('result').textContent=JSON.stringify(await res.json(),null,2);
+    }
+</script>

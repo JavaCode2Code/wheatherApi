@@ -1,0 +1,3 @@
+Spring Boot reference doc: https://docs.spring.io/spring-boot/docs/3.0.0-M3/maven-plugin/reference/htmlsingle/#?
+
+http://localhost:8081/api/weather?city=Hoshangabad

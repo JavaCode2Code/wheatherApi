@@ -1,0 +1,4 @@
+com\SpringBootSecurityApplication.class
+com\wheather\client\WeatherClient.class
+com\wheather\service\WeatherService.class
+com\wheather\controller\WeatherController.class
