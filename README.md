@@ -1,3 +1,3 @@
-geting the key here
+getting the key here
 
 https://home.openweathermap.org/api_keys
